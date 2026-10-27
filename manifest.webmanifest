@@ -1,0 +1,17 @@
+{
+  "name": "한장 일력",
+  "short_name": "한장",
+  "description": "종이 일력처럼 넘기는 한국 달력: 음력, 간지, 24절기, 공휴일과 대체공휴일",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#e3e6e1",
+  "theme_color": "#e3e6e1",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
