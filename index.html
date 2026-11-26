@@ -535,6 +535,7 @@ document.addEventListener('keydown',e=>{if(overlayOpen())return;
 
 applyBig();show('day');
 try{if(!localStorage.getItem('hanjang-hint3')){setTimeout(()=>toast('위로 밀면 다음 날 · 아래로 밀면 전날'),600);localStorage.setItem('hanjang-hint3','1')}}catch(e){}
+if('serviceWorker' in navigator&&location.protocol==='https:')navigator.serviceWorker.register('sw.js').catch(()=>{});
 </script>
 </body>
 </html>
